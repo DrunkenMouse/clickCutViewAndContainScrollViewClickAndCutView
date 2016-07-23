@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16DAC33A1D2A528B00EA7641 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DAC3391D2A528B00EA7641 /* main.m */; };
+		16DAC3531D2A528B00EA7641 /* ______View____scrollView__________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DAC3521D2A528B00EA7641 /* ______View____scrollView__________Tests.m */; };
+		16DAC35E1D2A528B00EA7641 /* ______View____scrollView__________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DAC35D1D2A528B00EA7641 /* ______View____scrollView__________UITests.m */; };
+		16DAC37A1D2A52A200EA7641 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DAC36D1D2A52A200EA7641 /* FirstViewController.m */; };
+		16DAC37B1D2A52A200EA7641 /* productVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DAC36F1D2A52A200EA7641 /* productVC.m */; };
+		16DAC37C1D2A52A200EA7641 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DAC3711D2A52A200EA7641 /* SecondViewController.m */; };
+		16DAC37D1D2A52A200EA7641 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DAC3731D2A52A200EA7641 /* ThirdViewController.m */; };
+		16DAC37E1D2A52A200EA7641 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DAC3761D2A52A200EA7641 /* UIView+Frame.m */; };
+		16DAC37F1D2A52A200EA7641 /* CustomButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DAC3791D2A52A200EA7641 /* CustomButtonView.m */; };
+		16DAC3861D2A53FB00EA7641 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DAC3821D2A53FB00EA7641 /* AppDelegate.m */; };
+		16DAC3871D2A53FB00EA7641 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16DAC3831D2A53FB00EA7641 /* Assets.xcassets */; };
+		16DAC3881D2A53FB00EA7641 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16DAC3841D2A53FB00EA7641 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16DAC34F1D2A528B00EA7641 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16DAC32D1D2A528B00EA7641 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16DAC3341D2A528B00EA7641;
+			remoteInfo = "按钮点击切换View界面包含scrollView的滚动与点击切换界面";
+		};
+		16DAC35A1D2A528B00EA7641 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16DAC32D1D2A528B00EA7641 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16DAC3341D2A528B00EA7641;
+			remoteInfo = "按钮点击切换View界面包含scrollView的滚动与点击切换界面";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16DAC3351D2A528B00EA7641 /* 按钮点击切换View界面包含scrollView的滚动与点击切换界面.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "按钮点击切换View界面包含scrollView的滚动与点击切换界面.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16DAC3391D2A528B00EA7641 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16DAC34E1D2A528B00EA7641 /* 按钮点击切换View界面包含scrollView的滚动与点击切换界面Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "按钮点击切换View界面包含scrollView的滚动与点击切换界面Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16DAC3521D2A528B00EA7641 /* ______View____scrollView__________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______View____scrollView__________Tests.m"; sourceTree = "<group>"; };
+		16DAC3541D2A528B00EA7641 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16DAC3591D2A528B00EA7641 /* 按钮点击切换View界面包含scrollView的滚动与点击切换界面UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "按钮点击切换View界面包含scrollView的滚动与点击切换界面UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16DAC35D1D2A528B00EA7641 /* ______View____scrollView__________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______View____scrollView__________UITests.m"; sourceTree = "<group>"; };
+		16DAC35F1D2A528B00EA7641 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16DAC36C1D2A52A200EA7641 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		16DAC36D1D2A52A200EA7641 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		16DAC36E1D2A52A200EA7641 /* productVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = productVC.h; sourceTree = "<group>"; };
+		16DAC36F1D2A52A200EA7641 /* productVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = productVC.m; sourceTree = "<group>"; };
+		16DAC3701D2A52A200EA7641 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		16DAC3711D2A52A200EA7641 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		16DAC3721D2A52A200EA7641 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		16DAC3731D2A52A200EA7641 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		16DAC3751D2A52A200EA7641 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		16DAC3761D2A52A200EA7641 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		16DAC3781D2A52A200EA7641 /* CustomButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButtonView.h; sourceTree = "<group>"; };
+		16DAC3791D2A52A200EA7641 /* CustomButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButtonView.m; sourceTree = "<group>"; };
+		16DAC3811D2A53FB00EA7641 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		16DAC3821D2A53FB00EA7641 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		16DAC3831D2A53FB00EA7641 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16DAC3851D2A53FB00EA7641 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16DAC3321D2A528B00EA7641 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16DAC34B1D2A528B00EA7641 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16DAC3561D2A528B00EA7641 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16DAC32C1D2A528B00EA7641 = {
+			isa = PBXGroup;
+			children = (
+				16DAC3371D2A528B00EA7641 /* 按钮点击切换View界面包含scrollView的滚动与点击切换界面 */,
+				16DAC3511D2A528B00EA7641 /* 按钮点击切换View界面包含scrollView的滚动与点击切换界面Tests */,
+				16DAC35C1D2A528B00EA7641 /* 按钮点击切换View界面包含scrollView的滚动与点击切换界面UITests */,
+				16DAC3361D2A528B00EA7641 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16DAC3361D2A528B00EA7641 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16DAC3351D2A528B00EA7641 /* 按钮点击切换View界面包含scrollView的滚动与点击切换界面.app */,
+				16DAC34E1D2A528B00EA7641 /* 按钮点击切换View界面包含scrollView的滚动与点击切换界面Tests.xctest */,
+				16DAC3591D2A528B00EA7641 /* 按钮点击切换View界面包含scrollView的滚动与点击切换界面UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16DAC3371D2A528B00EA7641 /* 按钮点击切换View界面包含scrollView的滚动与点击切换界面 */ = {
+			isa = PBXGroup;
+			children = (
+				16DAC3801D2A53FA00EA7641 /* Other */,
+				16DAC36B1D2A52A200EA7641 /* Controller */,
+				16DAC3771D2A52A200EA7641 /* View */,
+				16DAC3381D2A528B00EA7641 /* Supporting Files */,
+			);
+			path = "按钮点击切换View界面包含scrollView的滚动与点击切换界面";
+			sourceTree = "<group>";
+		};
+		16DAC3381D2A528B00EA7641 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16DAC3391D2A528B00EA7641 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		16DAC3511D2A528B00EA7641 /* 按钮点击切换View界面包含scrollView的滚动与点击切换界面Tests */ = {
+			isa = PBXGroup;
+			children = (
+				16DAC3521D2A528B00EA7641 /* ______View____scrollView__________Tests.m */,
+				16DAC3541D2A528B00EA7641 /* Info.plist */,
+			);
+			path = "按钮点击切换View界面包含scrollView的滚动与点击切换界面Tests";
+			sourceTree = "<group>";
+		};
+		16DAC35C1D2A528B00EA7641 /* 按钮点击切换View界面包含scrollView的滚动与点击切换界面UITests */ = {
+			isa = PBXGroup;
+			children = (
+				16DAC35D1D2A528B00EA7641 /* ______View____scrollView__________UITests.m */,
+				16DAC35F1D2A528B00EA7641 /* Info.plist */,
+			);
+			path = "按钮点击切换View界面包含scrollView的滚动与点击切换界面UITests";
+			sourceTree = "<group>";
+		};
+		16DAC36B1D2A52A200EA7641 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				16DAC36C1D2A52A200EA7641 /* FirstViewController.h */,
+				16DAC36D1D2A52A200EA7641 /* FirstViewController.m */,
+				16DAC36E1D2A52A200EA7641 /* productVC.h */,
+				16DAC36F1D2A52A200EA7641 /* productVC.m */,
+				16DAC3701D2A52A200EA7641 /* SecondViewController.h */,
+				16DAC3711D2A52A200EA7641 /* SecondViewController.m */,
+				16DAC3721D2A52A200EA7641 /* ThirdViewController.h */,
+				16DAC3731D2A52A200EA7641 /* ThirdViewController.m */,
+				16DAC3741D2A52A200EA7641 /* UIView+Extension */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		16DAC3741D2A52A200EA7641 /* UIView+Extension */ = {
+			isa = PBXGroup;
+			children = (
+				16DAC3751D2A52A200EA7641 /* UIView+Frame.h */,
+				16DAC3761D2A52A200EA7641 /* UIView+Frame.m */,
+			);
+			path = "UIView+Extension";
+			sourceTree = "<group>";
+		};
+		16DAC3771D2A52A200EA7641 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				16DAC3781D2A52A200EA7641 /* CustomButtonView.h */,
+				16DAC3791D2A52A200EA7641 /* CustomButtonView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		16DAC3801D2A53FA00EA7641 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				16DAC3811D2A53FB00EA7641 /* AppDelegate.h */,
+				16DAC3821D2A53FB00EA7641 /* AppDelegate.m */,
+				16DAC3831D2A53FB00EA7641 /* Assets.xcassets */,
+				16DAC3841D2A53FB00EA7641 /* LaunchScreen.storyboard */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16DAC3341D2A528B00EA7641 /* 按钮点击切换View界面包含scrollView的滚动与点击切换界面 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16DAC3621D2A528B00EA7641 /* Build configuration list for PBXNativeTarget "按钮点击切换View界面包含scrollView的滚动与点击切换界面" */;
+			buildPhases = (
+				16DAC3311D2A528B00EA7641 /* Sources */,
+				16DAC3321D2A528B00EA7641 /* Frameworks */,
+				16DAC3331D2A528B00EA7641 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "按钮点击切换View界面包含scrollView的滚动与点击切换界面";
+			productName = "按钮点击切换View界面包含scrollView的滚动与点击切换界面";
+			productReference = 16DAC3351D2A528B00EA7641 /* 按钮点击切换View界面包含scrollView的滚动与点击切换界面.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16DAC34D1D2A528B00EA7641 /* 按钮点击切换View界面包含scrollView的滚动与点击切换界面Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16DAC3651D2A528B00EA7641 /* Build configuration list for PBXNativeTarget "按钮点击切换View界面包含scrollView的滚动与点击切换界面Tests" */;
+			buildPhases = (
+				16DAC34A1D2A528B00EA7641 /* Sources */,
+				16DAC34B1D2A528B00EA7641 /* Frameworks */,
+				16DAC34C1D2A528B00EA7641 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16DAC3501D2A528B00EA7641 /* PBXTargetDependency */,
+			);
+			name = "按钮点击切换View界面包含scrollView的滚动与点击切换界面Tests";
+			productName = "按钮点击切换View界面包含scrollView的滚动与点击切换界面Tests";
+			productReference = 16DAC34E1D2A528B00EA7641 /* 按钮点击切换View界面包含scrollView的滚动与点击切换界面Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16DAC3581D2A528B00EA7641 /* 按钮点击切换View界面包含scrollView的滚动与点击切换界面UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16DAC3681D2A528B00EA7641 /* Build configuration list for PBXNativeTarget "按钮点击切换View界面包含scrollView的滚动与点击切换界面UITests" */;
+			buildPhases = (
+				16DAC3551D2A528B00EA7641 /* Sources */,
+				16DAC3561D2A528B00EA7641 /* Frameworks */,
+				16DAC3571D2A528B00EA7641 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16DAC35B1D2A528B00EA7641 /* PBXTargetDependency */,
+			);
+			name = "按钮点击切换View界面包含scrollView的滚动与点击切换界面UITests";
+			productName = "按钮点击切换View界面包含scrollView的滚动与点击切换界面UITests";
+			productReference = 16DAC3591D2A528B00EA7641 /* 按钮点击切换View界面包含scrollView的滚动与点击切换界面UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16DAC32D1D2A528B00EA7641 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "王奥东";
+				TargetAttributes = {
+					16DAC3341D2A528B00EA7641 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 3TP2S3N87D;
+					};
+					16DAC34D1D2A528B00EA7641 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 3TP2S3N87D;
+						TestTargetID = 16DAC3341D2A528B00EA7641;
+					};
+					16DAC3581D2A528B00EA7641 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 3TP2S3N87D;
+						TestTargetID = 16DAC3341D2A528B00EA7641;
+					};
+				};
+			};
+			buildConfigurationList = 16DAC3301D2A528B00EA7641 /* Build configuration list for PBXProject "按钮点击切换View界面包含scrollView的滚动与点击切换界面" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16DAC32C1D2A528B00EA7641;
+			productRefGroup = 16DAC3361D2A528B00EA7641 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16DAC3341D2A528B00EA7641 /* 按钮点击切换View界面包含scrollView的滚动与点击切换界面 */,
+				16DAC34D1D2A528B00EA7641 /* 按钮点击切换View界面包含scrollView的滚动与点击切换界面Tests */,
+				16DAC3581D2A528B00EA7641 /* 按钮点击切换View界面包含scrollView的滚动与点击切换界面UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16DAC3331D2A528B00EA7641 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16DAC3881D2A53FB00EA7641 /* LaunchScreen.storyboard in Resources */,
+				16DAC3871D2A53FB00EA7641 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16DAC34C1D2A528B00EA7641 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16DAC3571D2A528B00EA7641 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16DAC3311D2A528B00EA7641 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16DAC37E1D2A52A200EA7641 /* UIView+Frame.m in Sources */,
+				16DAC37C1D2A52A200EA7641 /* SecondViewController.m in Sources */,
+				16DAC37B1D2A52A200EA7641 /* productVC.m in Sources */,
+				16DAC37F1D2A52A200EA7641 /* CustomButtonView.m in Sources */,
+				16DAC3861D2A53FB00EA7641 /* AppDelegate.m in Sources */,
+				16DAC33A1D2A528B00EA7641 /* main.m in Sources */,
+				16DAC37A1D2A52A200EA7641 /* FirstViewController.m in Sources */,
+				16DAC37D1D2A52A200EA7641 /* ThirdViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16DAC34A1D2A528B00EA7641 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16DAC3531D2A528B00EA7641 /* ______View____scrollView__________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16DAC3551D2A528B00EA7641 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16DAC35E1D2A528B00EA7641 /* ______View____scrollView__________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16DAC3501D2A528B00EA7641 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16DAC3341D2A528B00EA7641 /* 按钮点击切换View界面包含scrollView的滚动与点击切换界面 */;
+			targetProxy = 16DAC34F1D2A528B00EA7641 /* PBXContainerItemProxy */;
+		};
+		16DAC35B1D2A528B00EA7641 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16DAC3341D2A528B00EA7641 /* 按钮点击切换View界面包含scrollView的滚动与点击切换界面 */;
+			targetProxy = 16DAC35A1D2A528B00EA7641 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16DAC3841D2A53FB00EA7641 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16DAC3851D2A53FB00EA7641 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16DAC3601D2A528B00EA7641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16DAC3611D2A528B00EA7641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16DAC3631D2A528B00EA7641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "按钮点击切换View界面包含scrollView的滚动与点击切换界面/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.------View----scrollView----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		16DAC3641D2A528B00EA7641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "按钮点击切换View界面包含scrollView的滚动与点击切换界面/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.------View----scrollView----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		16DAC3661D2A528B00EA7641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "按钮点击切换View界面包含scrollView的滚动与点击切换界面Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.------View----scrollView----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/按钮点击切换View界面包含scrollView的滚动与点击切换界面.app/按钮点击切换View界面包含scrollView的滚动与点击切换界面";
+			};
+			name = Debug;
+		};
+		16DAC3671D2A528B00EA7641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "按钮点击切换View界面包含scrollView的滚动与点击切换界面Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.------View----scrollView----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/按钮点击切换View界面包含scrollView的滚动与点击切换界面.app/按钮点击切换View界面包含scrollView的滚动与点击切换界面";
+			};
+			name = Release;
+		};
+		16DAC3691D2A528B00EA7641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "按钮点击切换View界面包含scrollView的滚动与点击切换界面UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.------View----scrollView----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "按钮点击切换View界面包含scrollView的滚动与点击切换界面";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		16DAC36A1D2A528B00EA7641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "按钮点击切换View界面包含scrollView的滚动与点击切换界面UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.------View----scrollView----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "按钮点击切换View界面包含scrollView的滚动与点击切换界面";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16DAC3301D2A528B00EA7641 /* Build configuration list for PBXProject "按钮点击切换View界面包含scrollView的滚动与点击切换界面" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16DAC3601D2A528B00EA7641 /* Debug */,
+				16DAC3611D2A528B00EA7641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16DAC3621D2A528B00EA7641 /* Build configuration list for PBXNativeTarget "按钮点击切换View界面包含scrollView的滚动与点击切换界面" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16DAC3631D2A528B00EA7641 /* Debug */,
+				16DAC3641D2A528B00EA7641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		16DAC3651D2A528B00EA7641 /* Build configuration list for PBXNativeTarget "按钮点击切换View界面包含scrollView的滚动与点击切换界面Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16DAC3661D2A528B00EA7641 /* Debug */,
+				16DAC3671D2A528B00EA7641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		16DAC3681D2A528B00EA7641 /* Build configuration list for PBXNativeTarget "按钮点击切换View界面包含scrollView的滚动与点击切换界面UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16DAC3691D2A528B00EA7641 /* Debug */,
+				16DAC36A1D2A528B00EA7641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16DAC32D1D2A528B00EA7641 /* Project object */;
+}

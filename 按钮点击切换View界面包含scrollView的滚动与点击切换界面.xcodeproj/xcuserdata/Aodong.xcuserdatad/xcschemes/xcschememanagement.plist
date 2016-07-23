@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>按钮点击切换View界面包含scrollView的滚动与点击切换界面.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>16DAC3341D2A528B00EA7641</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>16DAC34D1D2A528B00EA7641</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>16DAC3581D2A528B00EA7641</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
